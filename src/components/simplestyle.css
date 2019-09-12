@@ -1,0 +1,31 @@
+.simplepage{
+    background-image: url(../images/coffee-cup.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+.content {
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 20vh;
+    width: 500px;
+    height: 200px;
+    color: white;
+    box-sizing: border-box;
+    background-color: rgb(216, 140, 54);
+    border: 3px solid white;
+}
+.imgpos{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 25vh;
+}
+@media only screen and (max-width: 670px) {
+    .simplepage{
+        min-height: 200vh;
+    }
+}
