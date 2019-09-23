@@ -5,7 +5,6 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: 100vh;
     min-height: 100vh;
     font-family: 'Raleway', sans-serif;
 
@@ -36,6 +35,24 @@
 }
 @media only screen and (max-width: 670px) {
     .simplepage{
-        min-height: 200vh;
+        height: 100vh;
+    }
+    .content{
+        width: 80%;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+    .imgpos{
+        padding-top: 20vh;
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .imgpos{
+        width: 70%;
+    }
+    .content h1{
+        font-size: 20px;
     }
 }
